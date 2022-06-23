@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="shortcut icon" href="menina.png" />
+    <title>Meu Portfólio</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+      data-auto-replace-svg="nest"
+    ></script>
+  </head>
+
+  <body>
+    <!-- O Header faz parte da semântica, de criar a "cabeçalho" do site -->
+    <header class="header-menu">
+      <!-- O Nav é a barra de navegação do site, quando entrarmos no CSS, tudo fará sentido -->
+      <nav>
+        <!-- O Ul e o OL são as listas -->
+        <ul class="lista-menu">
+          <li>
+            <a href="#formacao">Formação</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portfólio</a>
+          </li>
+          <li>
+            <a href="#contato">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- O Main faz parte da semântica, de criar o "corpo" do site -->
+
+    <main>
+      <!-- O Section faz parte da semântica, de criar e separar as sessões do nosso site -->
+      <section class="principal">
+        <!-- O article quer dizer que estamos criando um trecho do nosso site, que é independente de outros trechos/partes do nosso site -->
+        <article class="subcontainer-principal container">
+          <div>
+            <img src="menina.png" />
+          </div>
+          <div>
+            <h1 class="nome-completo">Caroline Costa</h1>
+            <h2 class="profissao">
+              Desenvolvedora Front-end | Autora de material didático
+            </h2>
+          </div>
+          <div>
+            <p>
+              Atualmente faço parte da rede Preta Lab onde participo de uma
+              formação voltada a programação Front-end desenvolvendo
+              conhecimentos em HTML, CSS, JavaScript e React.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section>
+        <article id="formacao" class="container article-lista">
+          <div>
+            <h3 class="topico-principal">Formação</h3>
+          </div>
+          <div class="lista-item">
+            <ul>
+              <li>
+                <p class="lista-titulo">Ciclo formativo Pretalab</p>
+                <a
+                  href="https://www.pretalab.com/formacao"
+                  target="_blank"
+                  class="lista-local"
+                  >Pretalab / Olabi</a
+                >
+                <p class="lista-descricao">
+                  Desenvolvimento de conhecimentos em HTML, CSS, JavaScript e
+                  React.
+                </p>
+              </li>
+              <li>
+                <p class="lista-titulo">Ciclo formativo Pretalab</p>
+                <a
+                  href="https://www.pretalab.com/formacao"
+                  target="_blank"
+                  class="lista-local"
+                  >Pretalab / Olabi</a
+                >
+                <p class="lista-descricao">
+                  Desenvolvimento de conhecimentos em HTML, CSS, JavaScript e
+                  React.
+                </p>
+              </li>
+              <li>
+                <p class="lista-titulo">Ciclo formativo Pretalab</p>
+                <a
+                  href="https://www.pretalab.com/formacao"
+                  target="_blank"
+                  class="lista-local"
+                  >Pretalab / Olabi</a
+                >
+                <p class="lista-descricao">
+                  Desenvolvimento de conhecimentos em HTML, CSS, JavaScript e
+                  React.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </section>
+
+      <section class="wrapper-portfolio">
+        <article id="portfolio" class="container article-lista">
+          <div>
+            <h3 class="topico-principal">Portifólio</h3>
+          </div>
+          <div class="lista-item">
+            <ul>
+              <li>
+                <p class="lista-titulo">Blog QUIMICAMILA</p>
+                <a
+                  href="https://www.quimicamila.com.br/"
+                  target="_blank"
+                  class="lista-local"
+                >
+                  SITE</a
+                >
+                <p class="lista-descricao">
+                  Blog voltado ao compartilhamento de curiosidades da química e
+                  notícias sobre vestibulares.
+                </p>
+              </li>
+              <li>
+                <p class="lista-titulo">e-Book</p>
+                <p class="subtitulo-lista">Revisão Enem</p>
+                <a
+                  href="https://drive.google.com/file/d/103cLEECQCEWAbWr78uyQEiJuvURr0Jo_/view?usp=sharing"
+                  target="_blank"
+                  class="lista-local"
+                >
+                  Baixe o e-Book aqui</a
+                >
+                <p class="lista-descricao">
+                  E-Book elaborado pela equipe de professoras da exatas com elas
+                  com o intuito de ajudar os vestibulandos na preparação para a
+                  prova do Enem para as disciplinas de química, física e
+                  matemática.
+                </p>
+              </li>
+              <li>
+                <p class="lista-titulo">Modelo de Texto Didático</p>
+                <p>
+                  <a
+                    href="https://drive.google.com/file/d/1qDZnkCj7WXSQSRchcQSjC0A_kiy5tDWd/view?usp=sharing"
+                    target="_blank"
+                    class="lista-local"
+                    >Modelo 01</a
+                  >
+                </p>
+                <a
+                  href="https://drive.google.com/file/d/1v28n3MkvuwUFd0TzaEkAH4M1n-EOR5WU/view?usp=sharing"
+                  target="_blank"
+                  class="lista-local"
+                  >Modelo 02</a
+                >
+                <p class="lista-descricao">
+                  Modelo de texto autoral didático voltado ao estudo da ciências
+                  da natureza.
+                </p>
+              </li>
+              <li></li>
+            </ul>
+          </div>
+        </article>
+      </section>
+    </main>
+    <!-- O Footer faz parte da semântica, de criar o rodapé do site -->
+    <footer class="footer" id="contato">
+      <div class="container">
+        <ul class="lista-footer">
+          <li>
+            <i class="fas fa-envelope-square estilo-icon"></i
+            ><a
+              href="mailto:carolinecsilv@gmail.com"
+              target="_blank"
+              class="links"
+              >carolinecsilv@gmail.com</a
+            >
+          </li>
+          <li>
+            <i class="fab fa-linkedin estilo-icon"></i
+            ><a
+              href="https://www.linkedin.com/in/caroline-silva-28a58282/"
+              target="_blank"
+              class="links"
+              >caroline-silva</a
+            >
+          </li>
+          <li>
+            <i class="fab fa-github-square estilo-icon"></i
+            ><a
+              href="https://github.com/CarolCsilv"
+              target="_blank"
+              class="links"
+              >CarolCsilv</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
